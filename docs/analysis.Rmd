@@ -1,0 +1,15 @@
+---
+title: "Analysis"
+author: "Nirvana"
+date: "2026-04-13"
+output: html_document
+---
+```{r}
+library(Nirvanafirstpackage)
+library(ggplot2)
+
+ggplot(MaxTemp, aes(x = Date, y = MaxTemp)) +
+  geom_line()
+```
+
+
